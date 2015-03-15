@@ -23,7 +23,7 @@ $ java -Xbatch -XX:-TieredCompilation \
 
 Or:
 ```bash
-$ ./inlining.sh
+$ ./print_inlining.sh
 ```
 
 ## Flags
