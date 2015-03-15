@@ -13,9 +13,9 @@ $ gradle [-q] run
 
 With `gradle build` as a prerequisite:
 ```bash
-$ java -XX:+PrintCompilation \
-       -XX:+UnlockDiagnosticVMOptions \
-       -XX:+PrintInlining \
+$ java -Xbatch -XX:-TieredCompilation \
+       -XX:+PrintCompilation \
+       -XX:+UnlockDiagnosticVMOptions -XX:+PrintInlining \
        -XX:+LogCompilation \
        -cp build/classes/main \
        org.dryft.antiproxy.Main
@@ -56,5 +56,5 @@ HotSpot disassembler plugin needed: https://kenai.com/projects/base-hsdis/downlo
 
 ### Stability between executions
 
-* `-Xbatch`: one thread
-* `-XX:TieredCompilation`
+* `-Xbatch`: one thread running and compilation
+* `-XX:-TieredCompilation`
