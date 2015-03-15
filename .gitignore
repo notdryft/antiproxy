@@ -1,0 +1,14 @@
+# mac stuff
+.DS_Store
+
+# ides
+.idea
+*.iml
+
+# build
+build
+.gradle
+gradle*
+
+# hotspot
+hotspot_pid*
