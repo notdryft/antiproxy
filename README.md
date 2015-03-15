@@ -39,6 +39,7 @@ Print hot method and.
 ### -XX:+PrintInlining
 
 Print inlining tree and class profile.
+
 `-XX:+UnlockDiagnosticVmOptions` required for inlining to work.
 
 ### -XX:+LogCompilation
@@ -48,6 +49,7 @@ More info, branch profile info, etc
 ### -XX:+PrintAssembly
 
 Annotated generated code.
+
 HotSpot disassembler plugin needed: https://kenai.com/projects/base-hsdis/downloads
 
 ### Stability between executions
