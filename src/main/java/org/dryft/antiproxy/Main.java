@@ -1,7 +1,7 @@
 package org.dryft.antiproxy;
 
 import org.dryft.antiproxy.annotations.Role;
-import org.dryft.antiproxy.core.Container;
+import org.dryft.antiproxy.core.impl.Container;
 import org.dryft.antiproxy.services.UserService;
 import org.dryft.antiproxy.services.impl.UserServiceImpl;
 

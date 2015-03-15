@@ -1,6 +1,7 @@
-package org.dryft.antiproxy.core;
+package org.dryft.antiproxy.core.impl;
 
-import org.dryft.antiproxy.core.impl.AdviceContextImpl;
+import org.dryft.antiproxy.core.Advice;
+import org.dryft.antiproxy.core.AdviceContext;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
