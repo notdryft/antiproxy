@@ -17,7 +17,8 @@ $ java -XX:+PrintCompilation \
        -XX:+UnlockDiagnosticVMOptions \
        -XX:+PrintInlining \
        -XX:+LogCompilation \
-       -cp build/classes/main org.dryft.antiproxy.Main
+       -cp build/classes/main \
+       org.dryft.antiproxy.Main
 ```
 
 Or:
