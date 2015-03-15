@@ -11,7 +11,10 @@ $ gradle [-q] run
 
 ## Check
 
-With `gradle build` as a prerequisite:
+`gradle build` is a prerequisite for each of thoses tasks.
+
+### Inlining
+
 ```bash
 $ java -Xbatch -XX:-TieredCompilation \
        -XX:+PrintCompilation \
@@ -24,6 +27,20 @@ $ java -Xbatch -XX:-TieredCompilation \
 Or:
 ```bash
 $ ./print_inlining.sh
+```
+
+### Assembly
+
+```bash
+$ java -Xbatch -XX:-TieredCompilation \
+       -XX:+UnlockDiagnosticVMOptions -XX:+PrintAssembly \
+       -cp build/classes/main \
+       org.dryft.antiproxy.Main
+```
+
+Or:
+```bash
+$ ./print_assembly.sh
 ```
 
 ## Flags
