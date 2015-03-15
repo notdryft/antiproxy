@@ -9,6 +9,7 @@ import java.lang.reflect.AnnotatedElement;
 
 public class Main {
 
+    @SuppressWarnings("unused")
     private static void checkRole(AnnotatedElement element, Role role) {
         // Do nothing
     }
