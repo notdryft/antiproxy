@@ -32,21 +32,23 @@ $ ./inlining.sh
 
 325 bytecode instructions by default on Linux 64 bits.
 
-### -XX:+PrintCompilation
+### -XX:+PrintCompilation (product)
 
-Print hot method and.
+Print hot methods.
 
-### -XX:+PrintInlining
+https://gist.github.com/rednaxelafx/1165804#file-notes-md
+
+### -XX:+PrintInlining (diagnostic)
 
 Print inlining tree and class profile.
 
 `-XX:+UnlockDiagnosticVmOptions` required for inlining to work.
 
-### -XX:+LogCompilation
+### -XX:+LogCompilation (diagnostic)
 
 More info, branch profile info, etc
 
-### -XX:+PrintAssembly
+### -XX:+PrintAssembly (diagnostic)
 
 Annotated generated code.
 
